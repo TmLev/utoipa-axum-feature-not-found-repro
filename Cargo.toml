@@ -1,0 +1,10 @@
+[package]
+name = "utoipa-axum-feature-not-found-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.5.13"
+utoipa = { version = "1.1.0", features = ["axum_extras"] }
